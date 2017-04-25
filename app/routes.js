@@ -11,6 +11,6 @@ module.exports = (app) => {
 	})
 
 	app.get('*', (req,res) => {
-		res.sendFile('./public/views/index.html')
+		res.sendFile('c:/starter-kit/public/views/index.html')
 	})
 }
